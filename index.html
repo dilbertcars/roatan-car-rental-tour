@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roatan Drive & Tours | Car Rentals & Island Excursions</title>
+    <meta
+      name="description"
+      content="Roatan Drive & Tours offers reliable car rentals, airport pickup, island tours, snorkeling trips, and custom adventures across Roatan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Roatan Drive & Tours home">
+          <span class="brand-mark">R</span>
+          <span class="brand-text">Roatan Drive & Tours</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#fleet">Fleet</a>
+          <a href="#tours">Tours</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a href="#booking" class="nav-cta">Book Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Roatan, Honduras</p>
+            <h1>Explore the island your way with easy car rentals and unforgettable tours.</h1>
+            <p class="lead">
+              From airport pickups to private island adventures, we make your Roatan getaway smooth,
+              flexible, and full of memorable experiences.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#booking" class="button primary">Reserve a Vehicle</a>
+              <a href="#tours" class="button secondary">View Tours</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Business statistics">
+              <li><strong>1,200+</strong><span>Happy travelers</span></li>
+              <li><strong>24/7</strong><span>Support</span></li>
+              <li><strong>4.9/5</strong><span>Guest rating</span></li>
+            </ul>
+          </div>
+
+          <aside class="booking-card" id="booking">
+            <div class="card-header">
+              <p>Quick Booking</p>
+              <h2>Start your trip</h2>
+            </div>
+
+            <form class="booking-form">
+              <label>
+                Full Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                Pickup Date
+                <input type="date" />
+              </label>
+              <label>
+                Vehicle Type
+                <select>
+                  <option>Compact SUV</option>
+                  <option>Standard Sedan</option>
+                  <option>Jeep</option>
+                  <option>Luxury SUV</option>
+                  <option>Tour Package</option>
+                </select>
+              </label>
+              <label>
+                Trip Type
+                <select>
+                  <option>Airport Transfer</option>
+                  <option>Daily Rental</option>
+                  <option>Private Tour</option>
+                  <option>Multi-day Adventure</option>
+                </select>
+              </label>
+              <button class="button primary" type="submit">Check Availability</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+
+      <section class="trust-bar">
+        <div class="container trust-row">
+          <span>Airport delivery</span>
+          <span>Unlimited mileage</span>
+          <span>Clean modern vehicles</span>
+          <span>Local expert support</span>
+        </div>
+      </section>
+
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">What we offer</p>
+            <h2>Everything you need to enjoy Roatan without stress.</h2>
+          </div>
+
+          <div class="card-grid services-grid">
+            <article class="info-card">
+              <div class="icon">🚗</div>
+              <h3>Car Rentals</h3>
+              <p>Daily, weekly, and airport pick-up rentals with flexible plans for couples, families, and groups.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">🏝️</div>
+              <h3>Island Tours</h3>
+              <p>Private and small-group tours to beaches, viewpoints, villages, and hidden gems around the island.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">🤿</div>
+              <h3>Adventure Packages</h3>
+              <p>Snorkeling, zipline, dolphin encounters, and custom excursions tailored to your travel style.</p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">🧭</div>
+              <h3>Custom Itineraries</h3>
+              <p>Let us plan a route around Roatan for the best beaches, restaurants, and scenic coastal stops.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="fleet">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">Our fleet</p>
+            <h2>Comfortable, reliable vehicles for every type of trip.</h2>
+          </div>
+
+          <div class="fleet-grid">
+            <article class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80" alt="Compact SUV" />
+              <div class="fleet-body">
+                <h3>Compact SUV</h3>
+                <p>Perfect for 4 adults with luggage and island exploration.</p>
+                <div class="fleet-meta"><span>Automatic</span><span>4 seats</span></div>
+              </div>
+            </article>
+
+            <article class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80" alt="Jeep rental" />
+              <div class="fleet-body">
+                <h3>Jeep Adventure</h3>
+                <p>Built for beach roads, nature stops, and scenic island drives.</p>
+                <div class="fleet-meta"><span>4x4</span><span>5 seats</span></div>
+              </div>
+            </article>
+
+            <article class="fleet-card">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Luxury SUV" />
+              <div class="fleet-body">
+                <h3>Luxury SUV</h3>
+                <p>Premium comfort for couples, families, and elevated island travel.</p>
+                <div class="fleet-meta"><span>Leather</span><span>7 seats</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="tours">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">Featured tours</p>
+            <h2>Choose your island adventure.</h2>
+          </div>
+
+          <div class="tour-list">
+            <article class="tour-item">
+              <div>
+                <p class="tour-tag">Beach Day</p>
+                <h3>West End Beach Escape</h3>
+              </div>
+              <p>Relax at Roatan’s best beach areas with snorkeling stops, local dining, and scenic drives.</p>
+              <span class="tour-price">From $89</span>
+            </article>
+
+            <article class="tour-item">
+              <div>
+                <p class="tour-tag">Nature & Views</p>
+                <h3>Mountain & Village Route</h3>
+              </div>
+              <p>Explore Roatan’s hills, local neighborhoods, lookout points, and craft market stops.</p>
+              <span class="tour-price">From $99</span>
+            </article>
+
+            <article class="tour-item">
+              <div>
+                <p class="tour-tag">Adventure</p>
+                <h3>Snorkel & Reef Combo</h3>
+              </div>
+              <p>Enjoy reef snorkeling, island hopping, and transport with a local guide who knows the best routes.</p>
+              <span class="tour-price">From $120</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt why-us">
+        <div class="container split-layout">
+          <div>
+            <p class="eyebrow dark">Why choose us</p>
+            <h2>Local service, honest pricing, and island expertise.</h2>
+            <ul class="check-list">
+              <li>Flexible pickup and drop-off service</li>
+              <li>Transparent pricing with no hidden fees</li>
+              <li>Friendly bilingual local support</li>
+              <li>Well-maintained cars for safe island driving</li>
+              <li>Custom tours for families, couples, and groups</li>
+            </ul>
+          </div>
+
+          <div class="stats-panel">
+            <div class="metric">
+              <strong>15+</strong>
+              <span>Years in Roatan</span>
+            </div>
+            <div class="metric">
+              <strong>99%</strong>
+              <span>Repeat customers</span>
+            </div>
+            <div class="metric">
+              <strong>7 days</strong>
+              <span>Weekly availability</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow dark">Guest reviews</p>
+            <h2>Travelers love the way we explore Roatan.</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote class="testimonial">
+              “The vehicle was spotless and the staff helped us plan the perfect island day. We loved every minute.”
+              <footer>— Emma & Mark, UK</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              “Fast airport pickup and excellent pricing. Our private tour was well organized and unforgettable.”
+              <footer>— Carlos, USA</footer>
+            </blockquote>
+            <blockquote class="testimonial">
+              “Great local knowledge, super friendly team, and the best beach recommendations on the island.”
+              <footer>— Rachel, Canada</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand footer-brand">
+            <span class="brand-mark">R</span>
+            <span class="brand-text">Roatan Drive & Tours</span>
+          </a>
+          <p>Roatan’s trusted local provider for rental cars and private island excursions.</p>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li>+504 9876-5432</li>
+            <li>hello@roatantravel.com</li>
+            <li>West Bay Road, Roatan</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Hours</h3>
+          <ul>
+            <li>Mon–Sat: 7:00 AM – 8:00 PM</li>
+            <li>Sun: 8:00 AM – 5:00 PM</li>
+            <li>Airport pickup available</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Roatan Drive & Tours. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
